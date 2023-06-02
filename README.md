@@ -22,3 +22,8 @@ The system uses a master node to identify the rest of the nodes to the network. 
     ]
 }
 ```
+
+**Installation**
+First, make sure you have the following packages installed.
+
+>sudo apt install python3-pip python3-venv
