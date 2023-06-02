@@ -32,6 +32,9 @@ First, make sure you have the following packages installed.
 
 >sudo apt install python3-pip python3-venv
 
+
 run run.py 
+
+
 run blockchain.py 
 
