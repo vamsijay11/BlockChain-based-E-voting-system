@@ -8,7 +8,7 @@ The system uses a master node to identify the rest of the nodes to the network. 
 
 **The structure of a block**
 
-'''
+```
 {
     "index": 2,
     "previous_hash": "d1a58a4282dc18cd726fbe25198b034588b959106458472b23473c9caddb589e",
@@ -21,4 +21,4 @@ The system uses a master node to identify the rest of the nodes to the network. 
         }
     ]
 }
-'''
+```
