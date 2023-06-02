@@ -38,3 +38,14 @@ run run.py
 
 run blockchain.py 
 
+
+**PROJECT SCRRENSHOTS**
+
+<img width="704" alt="image" src="https://github.com/vamsijay11/BlockChain-based-E-voting-system/assets/63055979/64fe8cdd-d4fe-4083-85dd-9e930d697921">
+
+
+<img width="694" alt="image" src="https://github.com/vamsijay11/BlockChain-based-E-voting-system/assets/63055979/faeb64fa-6ad3-4b76-b1ca-6b88f609ced2">
+
+<img width="521" alt="image" src="https://github.com/vamsijay11/BlockChain-based-E-voting-system/assets/63055979/a1d08392-4408-4dca-8f1d-5a1593a20a74">
+
+
