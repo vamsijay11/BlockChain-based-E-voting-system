@@ -3,8 +3,10 @@
 It is a simple decentralized blockchain based voting system that has security aspects. Everyone has the right to vote only once with their id. 
 The system ensures that the information of all nodes is up to date. Nodes can operate as a voting system or a mining system. The network is written in flask.
 
+
 **Master Node**
 The system uses a master node to identify the rest of the nodes to the network. A new node sends its information to the master node at startup.
+
 
 **The structure of a block**
 
@@ -29,3 +31,7 @@ The system uses a master node to identify the rest of the nodes to the network. 
 First, make sure you have the following packages installed.
 
 >sudo apt install python3-pip python3-venv
+
+run run.py 
+run blockchain.py 
+
