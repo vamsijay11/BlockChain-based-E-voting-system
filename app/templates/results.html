@@ -1,0 +1,35 @@
+
+
+{% extends 'layout.html' %}
+
+{%block body %}
+<div class="jumbotron text-center">
+<h1><small>RESULTS OF ELECTION</small></h1>
+<h3><small>TOTAL AVIALABLE VOTERS {{result[0].total}}</small></h3>
+                                    <h3><small>NO OF VOTER WHO HAVE VOTED {{result[0].present}}</small></h3>
+<hr>
+</div>
+<div>
+<table class="table table-striped">
+<tr>
+<th>NAME</th>
+
+<th>VOTES</th>
+
+<th>PERCENT</th>
+
+</tr>
+
+{%for results in result%}
+<tr>
+<td>{{results.name}}</td>
+<td>{{results.votes}}</td>
+<td>{{results.per}} </td>  
+
+</tr>
+                           {%endfor%}
+</table>                            
+ </div>
+
+
+{%endblock%}

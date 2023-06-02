@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{%block body %}
+<div class="jumbotron text-center">
+<h1>Dashboard <br/><br/><small> WELCOME,  {{ session.username}} To the E-Voting System</small></h1>
+<hr>
+</div>
+<div>
+<table class="table table-striped">
+<tr>
+<th>ID</th>
+<th></th>
+<th>NAME</th>
+<th></th>
+<th>VOTING BUTTON</th>
+</tr>
+
+{%for article in members%}
+<tr>
+<td>{{article.id}}<td>
+<td>{{article.name}}<td>
+<td><a href="do_vote/{{article.id}}" class="btn btn-default pullright">VOTE</a></td>
+</tr>
+                           {%endfor%}
+</table>                            
+ </div>
+
+
+{%endblock%}
+
+

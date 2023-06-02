@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>VOTING SYSTEM</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <style>
+            body {
+              background-image: url('./includes/blockchain_blue.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+            }
+            </style>
+    {% include 'includes/navbar.html'%}
+    <div class="container">
+    {% include 'includes/message.html' %}
+    {%block body%}{% endblock%}
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js">
+    </script>
+    </body>
+</html>
